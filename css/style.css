@@ -1,0 +1,315 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{font-family: 'Poppins', sans-serif; scroll-behavior: smooth}
+
+*{padding: 0; margin: 0; box-sizing: border-box}
+
+.container{width: 100%; padding:  0 15px; margin: 0 auto;}
+
+
+@media (min-width:576px){
+	.container{
+		max-width: 540px;
+	}
+}
+
+@media (min-width:768px){
+	.container{
+		max-width: 720px;
+	}
+}
+
+@media (min-width:992px){
+	.container{
+		max-width: 960px;
+	}
+}
+
+@media (min-width:1200px){
+	.container{
+		max-width: 1152px;
+	}
+}
+
+
+header.topbar{ background-color: #1D1D1D; color: white; padding: 0.75rem 0;}
+
+header.topbar .auth > div a{color: white; text-decoration: none;}
+
+header.topbar .auth > div img{margin-right: 0.35rem;}
+
+header.topbar .icons a{margin-right: 0.6rem;}
+
+header.topbar .container .auth{display: flex;}
+
+header.topbar .auth .divider{padding: 0 1rem;}
+
+.flex{display: flex;}
+
+.justify-between{justify-content: space-between;}
+
+.items-center{align-items: center;}
+
+nav .top{padding: 1.5rem 0}
+
+nav .top .contact h5{margin-bottom: 0.25rem}
+
+nav .top .contact h6{letter-spacing: 0.055rem;color: #494747}
+
+nav .top .contact img{margin-right: 1rem;}
+
+nav .top .time img{margin-right: 1rem;}
+
+.justify-center{justify-content: center}
+
+nav .navbar a{text-decoration: none; color: #1D1D1D; font-size: 1rem; padding: 1rem 1.5rem ;  transition: all .3s ease}
+
+nav .navbar a.active{background: #a76635; color: white}
+
+nav .navbar a:hover{background:   #a76635; color: white}
+
+.magic-shadow{ position: relative; background: white}
+
+.magic-shadow:after{content:''; display: block; width: 100%; height: 69px; background-image: url("../icons/shadow.svg"); background-repeat: no-repeat; position: absolute; bottom: -22px; z-index: -1;background-position: center }
+
+header.hero{height: 600px;background-image: url("../images/hero.png"); background-repeat: no-repeat; background-position: 0% 0%; overflow: hidden; }
+
+header.hero .container{position: relative}
+
+header.hero .welcome{margin-bottom: 0.25rem}
+
+header.hero .welcome span{color: #1D1D1D; margin-right: 0.75rem}
+
+header.hero h1{color: #1D1D1D; font-weight: 600; margin-bottom: 0.75rem}
+
+.hero-image img{margin-left: 100px}
+
+header.hero h1 span {color:  #a76635 }
+
+header.hero p{width: 50%; margin-bottom: 1rem; font-size: 12px }
+
+.btn{padding: 0.75rem 0.75rem; border-radius: 4px; cursor: pointer; transition:all 0.3s ease; border: 1px solid transparent}
+
+.btn-primary{background: #a76635; color: #FFF }
+.btn-primary:hover{background:#FFF; color: #a76635 ; border: 1px solid  #a76635 }
+
+.btn-secondary{background:#1D1D1D; color: #FFF}
+
+.btn-secondary:hover{background: #FFF; color: #1D1D1D ;border: 1px solid #1D1D1D}
+
+header.hero button:first-child{margin-right: 0.50rem}
+
+header.hero .hero-image{position: absolute; top: -40px; right: 40px}
+
+section{padding: 4rem 0}
+
+section.top-products{background: #F0F0F0}
+
+.section-heading{font-weight: 600; text-align: center; position: relative; margin-bottom: 6rem}
+
+.section-heading:after{content: ''; display: block; width: 100%; height: 30px; background-image: url("../icons/hr.svg"); background-repeat: no-repeat;background-position: center; position: absolute; bottom: -40px}
+
+section.top-products .food-slider .food-cart{background: white; padding: 1.5rem 0; border-radius: 4px}
+
+section.top-products .food-slider .food-cart .product-image img{width: 80%; height: 200px; padding-bottom: 1rem; object-fit: contain}
+
+hr{border: 1px solid #F0F0F0; opacity: 0.8; margin: 1rem 0;}
+section.top-products .food-slider .food-cart h2{font-weight: 600; font-size: 1.3rem; margin-bottom: 0.25rem}
+.text-center{text-align: center}
+
+section.top-products .food-slider .food-cart .stars img{margin-right:0.25rem }
+
+
+section.top-products .food-slider .food-cart .price{font-weight: 400; color: #FE4545; margin-bottom: 1rem}
+
+section.top-products .food-slider .food-cart .stars{margin-bottom: 0.5rem}
+
+section.top-products .food-slider .food-cart button{font-weight: 400; color: #1D1D1D; background: white; border: 2px solid  #a76635; border-radius: 4px; display: flex; align-items: center;width: 50%; font-size: 1rem; cursor: pointer; transition: all 0.3s ease}
+
+section.top-products .food-slider .food-cart button:hover{background:  #a76635; color: white}
+
+
+.food-slider .food-cart button img{background: #a76635; padding: 0.50rem; height: 32px; margin-right: 1.2rem}
+
+
+.slick-slide{margin: 0 27px}
+.slick-list{margin: 0 -27px}
+.slick-track{padding: 1rem 0}
+.top-products .slider-btn{width:30px; height: 30px; border:none; border-radius: 4px; cursor: pointer; background:  #a76635; outline:none}
+.prev-btn{position: absolute; top:46%; left:-3rem; z-index: 1}
+.next-btn{position: absolute; top:46%; right:-3rem; z-index: 1}
+
+.top-products .slider{position: relative}
+.top-products .btn-wrapper{margin-top: 2rem}
+
+
+.magic-shadow-sm{position: relative; background: white}
+
+.magic-shadow-sm:after{content:''; display: block; width: 100%; height: 69px; background-image: url("../icons/shadow-sm.svg"); background-repeat: no-repeat; position: absolute; bottom: -25px; z-index: -1;background-position: center; left: 50%; transform: translate(-50%)}
+
+section.about-meal img{width: 85%}
+
+.flex-1{flex: 1}
+
+section.about-meal h2{font-weight: 600px; font-size: 1.4rem; color: #1D1D1D; margin-bottom: 2rem; line-height: 1.3rem}
+section.about-meal p{line-height: 1.7rem; margin-bottom: 4rem}
+
+section.serivice{background: #F0F0F0; z-index: 0; position: relative}
+section.serivice .serivice-card{background: white; text-align: center; padding: 2rem; position: relative; padding-top: 4rem; border-radius: 4px; margin-right: 2rem}
+
+section.serivice .serivice-card .icon{position: absolute; top:-40px; left: 50%; transform: translate(-50%)}
+
+section.serivice .serivice-card h2{font-weight: 600; font-size: 1.3rem; margin-bottom: 1rem}
+
+section.serivice .serivice-card p{line-height: 1.6;margin-bottom: 1rem }
+
+section.serivice .serivice-card .card-wrapper{margin-right: -2rem; margin-top: 8rem}
+
+
+.text-primary{color: #a76635}
+
+section.big-dela .timer{display: flex; align-items: center; justify-content: center; margin-right: -2rem; margin-bottom: 2rem}
+
+section.big-dela .timer div{margin-right: 2rem; background:  #a76635; height: 150px;width: 150px; border-radius: 4px; display: flex; flex-direction: column; align-items: center; justify-content: center}
+
+section.big-dela .timer span:first-child{font-size: 2.5rem; color: white; font-weight: 700; margin-bottom: 0.05rem}
+
+
+section.big-dela .timer span:last-child{font-weight: 400; color: white}
+
+section.big-dela{background: linear-gradient(
+	rgba(35,43,56,0.9),
+	rgba(35,43,56,0.9)
+),url("../images/food-table.jpg"); background-size: cover; background-repeat: no-repeat; background-position: center; background-attachment: fixed}
+
+.text-white{color: white}
+
+.latest-news .article-wrapper .card img{width: 100%}
+
+section.latest-news{background: #F0F0F0; position: relative;z-index: 0}
+
+section.latest-news .article-wrapper{display: flex; margin-right: -2rem}
+
+.latest-news .article-wrapper .card{margin-right: 2rem; background: white; border-radius: 4px}
+
+.latest-news .article-wrapper .card .card-content{padding: 2rem}
+
+.latest-news .article-wrapper .card .card-content .post-meta{margin-bottom: 1rem}
+.latest-news .article-wrapper .card .card-content .post-meta .comment{margin-left: 1rem}
+.latest-news .article-wrapper .card .card-content h2{font-weight: 600; font-size: 1.3rem; margin-bottom: 1rem}
+.latest-news .article-wrapper .card .card-content p{line-height: 1.6; }
+
+
+.latest-news .btn-wrapper{margin-top: 2rem}
+
+section.subscribe .container >div:first-child img{width: 90%}
+
+section.subscribe .container div:last-child{flex:1}
+
+section.subscribe{background:  #a76635}
+
+section.subscribe h1{font-weight: 600; font-size: 1.5rem; margin-bottom: 1.5rem}
+
+section.subscribe p{font-weight: 400; font-size: 1rem; margin-bottom: 1.5rem; line-height: 1.5}
+
+section.subscribe .input-wrap{background: white; display: flex; padding: 0.3rem; border-radius: 4px}
+
+section.subscribe .input-wrap input{width: 100%; border: none; padding: 0 1rem; font-size: 1rem}
+section.subscribe .input-wrap button{padding: 0.8rem 2rem; border: none; background:  #a76635; color: white; border-radius: 4px; font-size: 1rem; cursor:pointer; transition: all 0.3s ease; outline: none}
+
+section.subscribe .input-wrap button:hover{background: #1D1D1D}
+
+section.subscribe .input-wrap input:focus{outline: none}
+
+section.contact .contact-info-wrapper{padding: 4rem 0; flex: 1}
+section.contact .map{flex: 1}
+section.contact{padding: 0; padding-bottom: 0}
+
+section.contact .contact-info{display: flex; justify-content: center}
+
+section.contact .contact-info >div >div {display: flex;align-items: center; margin-bottom: 2rem}
+
+section.contact .contact-info >div >div img{margin-right: 1rem}
+
+section.contact .contact-info >div >div >div{display: flex; flex-direction: column}
+
+section.contact .contact-info >div >div >div span:first-child{font-weight: 600; margin-bottom: 0.25rem}
+
+
+
+
+footer{
+    background:#1E1E1E;
+    padding:4rem 0;
+}
+footer .container{
+    display:flex;
+    color: white;
+}
+
+footer .box{
+    flex:1;
+    margin-right:2rem;
+    text-align:center;
+}
+
+footer .instagram-api img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+footer .instagram-api .post-wrap{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+footer .instagram-api .post-wrap > div{
+    width: calc(1/3*100% - (1 - 1/3)*10px);
+    margin-bottom:10px;
+}
+footer .box ul{
+    list-style-type: none;
+}
+footer .box ul li a{
+    color:white;
+    text-decoration: none;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+footer .box ul li a:hover{
+    color:  #a76635;
+}
+footer .box h3{
+    border-bottom:1px solid  #a76635;
+    padding-bottom:1rem;
+    margin-bottom:1rem;
+}
+
+footer .box p{
+    line-height: 1.6;
+    margin-bottom:1rem;
+}
+footer .box ul li{
+    margin-bottom:1rem;
+}
+footer .box:nth-child(3) > div {
+    display:flex;
+    justify-content: center;
+}
+footer .box:nth-child(3){
+    text-align: left;
+}
+footer .box:nth-child(3) h3{
+    text-align: center;
+}
+footer .box:nth-child(3) > div img{
+    margin-right:1rem;
+}
+footer .box:nth-child(3) ul li{
+    margin-bottom:1.5rem;
+}
+
